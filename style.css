@@ -1,5 +1,6 @@
 body {
   font-family: "Lora", serif;
+  background-color: #000;
 }
 
 h1,
@@ -16,6 +17,7 @@ h1 {
   margin-left: 20px;
   margin-right: 10px;
   line-height: 120%;
+  padding: 20px;
 }
 
 /*trouver en inspectant la page*/
@@ -24,13 +26,14 @@ a:-webkit-any-link {
   color: #ca4343;
   cursor: pointer;
   text-decoration: underline;
-  line-height: 120%;
+  line-height: 160%;
   padding: 10px;
 }
 
 h2 {
   font-size: 20px;
-  padding: 10px;
+  padding-bottom: 10px;
+  padding-top: 30px;
   margin-left: 20px;
 }
 
@@ -43,14 +46,33 @@ nav {
 
 section {
   font-size: 15px;
-  padding: 10px;
-  line-height: 130%;
-  margin-left: 10px;
+  line-height: 135%;
+  margin-left: 20px;
   margin-right: 10px;
+  color: #ffff;
+}
+
+p {
+  font-size: 15px;
+  line-height: 130%;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin-right: 20px;
+  margin-left: 20px;
+}
+
+li {
+  font-size: 15px;
+  line-height: 120%;
+  padding-top: 3px;
+  padding-bottom: 3px;
+  margin-left: 20px;
 }
 
 footer {
   font-size: 10px;
-  padding: 10px;
-  margin-left: 10px;
+  padding-top: 20px;
+  padding-bottom: 10px;
+  margin-left: 20px;
+  color: #ffff;
 }
